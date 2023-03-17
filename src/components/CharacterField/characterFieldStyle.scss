@@ -1,0 +1,30 @@
+.field{
+  max-width: 413px;
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 9px 0 12px;
+
+  &__header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #081F32;
+  }
+
+  &__para{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #6E798C;
+  }
+}
+
+@media (max-width: 360px){
+  .field{
+    max-width: 300px;
+  }
+}
