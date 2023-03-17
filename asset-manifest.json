@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8150776.css",
-    "main.js": "/static/js/main.eaf0d8d3.js",
-    "static/js/787.dffe0442.chunk.js": "/static/js/787.dffe0442.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.cc4a7d1826c4c03d11cfbf42cc844bae.svg",
-    "index.html": "/index.html",
-    "static/media/search.svg": "/static/media/search.77cfd6eef4ae63307cd8.svg",
-    "static/media/arrow-back.svg": "/static/media/arrow-back.7ee5dd4eb1f8a8e3ef2fd62c9dcac6dc.svg",
-    "main.b8150776.css.map": "/static/css/main.b8150776.css.map",
-    "main.eaf0d8d3.js.map": "/static/js/main.eaf0d8d3.js.map",
-    "787.dffe0442.chunk.js.map": "/static/js/787.dffe0442.chunk.js.map"
+    "main.css": "/React-RickNMorty-site/static/css/main.b816d096.css",
+    "main.js": "/React-RickNMorty-site/static/js/main.4bafc832.js",
+    "static/js/787.dffe0442.chunk.js": "/React-RickNMorty-site/static/js/787.dffe0442.chunk.js",
+    "static/media/logo.svg": "/React-RickNMorty-site/static/media/logo.cc4a7d1826c4c03d11cfbf42cc844bae.svg",
+    "index.html": "/React-RickNMorty-site/index.html",
+    "static/media/search.svg": "/React-RickNMorty-site/static/media/search.77cfd6eef4ae63307cd8.svg",
+    "static/media/arrow-back.svg": "/React-RickNMorty-site/static/media/arrow-back.7ee5dd4eb1f8a8e3ef2fd62c9dcac6dc.svg",
+    "main.b816d096.css.map": "/React-RickNMorty-site/static/css/main.b816d096.css.map",
+    "main.4bafc832.js.map": "/React-RickNMorty-site/static/js/main.4bafc832.js.map",
+    "787.dffe0442.chunk.js.map": "/React-RickNMorty-site/static/js/787.dffe0442.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8150776.css",
-    "static/js/main.eaf0d8d3.js"
+    "static/css/main.b816d096.css",
+    "static/js/main.4bafc832.js"
   ]
 }
