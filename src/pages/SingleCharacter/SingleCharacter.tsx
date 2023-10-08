@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 
 import "./singleCharacterStyle.scss"
-import arrow from "../../../assets/images/arrow-back.svg";
+import arrow from "../../assets/images/arrow-back.svg";
 
 import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 
-import { CharacterInterface } from "../../../interfaces/character-interface";
-import { getSingleCharacter } from "../../../helpers/Api";
-import CharacterField from "../../CharacterField/CharacterField";
+import { CharacterInterface } from "../../interfaces/character-interface";
+import { getSingleCharacter } from "../../helpers/Api";
+import CharacterField from "./components/CharacterField/CharacterField";
 
 function SingleCharacter() {
     const [thisCharacter, setThisCharacter] = useState<CharacterInterface | null>(null),

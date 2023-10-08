@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Dispatch, SetStateAction } from "react";
-import useQuery from "../../hooks/useQuery";
+import useQuery from "../../../../hooks/useQuery";
 
 import "./searchInputStyle.scss"
 

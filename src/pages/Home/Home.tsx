@@ -1,15 +1,19 @@
 import { useEffect, useState } from "react";
-import { CharacterInterface } from "../../../interfaces/character-interface";
-import { getCharacterByRequest, getCharacters } from "../../../helpers/Api";
+
+import { NavLink, useLocation, useSearchParams } from "react-router-dom";
+
 
 import "./homeStyle.scss"
-import logo from '../../../assets/images/logo.svg'
-import SearchInput from "../../SearchInput/SearchInput";
-import CharacterCard from "../../CharacterCard/CharacterCard";
-import { NavLink, useLocation, useSearchParams } from "react-router-dom";
-import useQuery from "../../../hooks/useQuery";
-import LoginWGoogle from "../../LoginWGoogle/LoginWGoogle";
 
+import logo from '../../assets/images/logo.svg'
+
+import SearchInput from "./components/SearchInput/SearchInput";
+import CharacterCard from "./components/CharacterCard/CharacterCard";
+import LoginWGoogle from "./components/LoginWGoogle/LoginWGoogle";
+
+import useQuery from "../../hooks/useQuery";
+import { CharacterInterface } from "../../interfaces/character-interface";
+import { getCharacterByRequest, getCharacters } from "../../helpers/Api";
 
 
 function Home() {

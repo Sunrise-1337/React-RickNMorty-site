@@ -7,7 +7,7 @@ import { googleLogout } from '@react-oauth/google';
 
 import jwt_decode from "jwt-decode"
 
-import { UserDataInterface } from "../../interfaces/userData-interface"
+import { UserDataInterface } from "../../../../interfaces/userData-interface"
 
 function LoginWGoogle() {
     const [loggedIn, setLoggedIn] = useState<boolean>(true),

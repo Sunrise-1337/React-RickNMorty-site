@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { CharacterInterface } from "../../interfaces/character-interface";
+import { CharacterInterface } from "../../../../interfaces/character-interface";
 
 import "./characterCardStyle.scss"
 
